@@ -15,3 +15,4 @@
     <p>Phone: 02 0000 0000</p>
   </div>
 </footer>
+<?php wp_footer(); ?>

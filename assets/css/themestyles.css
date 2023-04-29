@@ -1,0 +1,289 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+.phone-number {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  color: ##777;
+  font-size: 18px;
+  font-weight: 600;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #073498;
+}
+
+/* Hero Banner */
+#home {
+  background-image: url('assets/images/4-4.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-banner-content {
+  max-width: 800px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-banner h2 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.hero-banner p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+#services {
+  background-color: #073498;
+  padding: 100px 50px;
+  text-align: center;
+}
+
+#services h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.service-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.service-block {
+  background-color: #fff;
+  width: 300px;
+  padding: 40px 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-block img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.service-block h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.service-block p {
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+/* About Us section */
+.about-us-section {
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-us-image {
+  float: left;
+  margin-right: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-us-text {
+  flex: 1;
+}
+
+.about-us-text h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.about-us-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 0;
+}
+
+
+/* Contact Us section */
+
+#contact-us {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.contact-form {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+.contact-info {
+  float: right;
+  width: 50%;
+  padding: 15px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+form {
+  margin: 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.footer-left {
+  flex-basis:33%;
+  max-width:33%;
+  text-align:left;
+}
+
+.footer-center {
+  flex-basis: 33%;
+  max-width: 33%;
+  text-align: center;
+}
+
+.footer-right {
+  flex-basis: 33%;
+  max-width: 33%;
+  text-align: right;
+}
+
+.footer-center p {
+  font-size: 16px;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-right h3 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.footer-right p {
+  font-size: 16px;
+  margin: 0;
+}
